@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.thira.examples.actionbar.widget.ActionBar
+		android:id="@+id/actionBar" android:layout_width="fill_parent"
+		android:layout_height="45dip" android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true" />
+	<View android:id="@+id/separator" android:layout_below="@id/actionBar"
+		android:layout_width="fill_parent" android:layout_height="2dip"
+		android:background="@color/actionbar_separator"
+		android:layout_marginBottom="@dimen/padding_small" />
+	<ToggleButton android:id="@+id/btnShowProgressBar"
+		android:textOff="Show Progress Bar" android:textOn="Hide Progress Bar"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@id/separator" />
+
+	<Button android:id="@+id/btnAddActions" android:text="Add Action Icon"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@id/btnShowProgressBar" />
+		
+	<Button android:id="@+id/btnStartChildActivity" android:text="Start New Activity"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@id/btnAddActions" />
+
+	<Button android:id="@+id/btnRemoveActions" android:text="Remove Action Icon"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@id/btnShowProgressBar"
+		android:layout_toRightOf="@id/btnAddActions" />
+</RelativeLayout>

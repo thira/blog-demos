@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="customWindowTitleBackground" parent="android:WindowTitleBackground">
+			<item name="android:background">@android:color/transparent</item>
+	</style>
+	<style name="CustomTheme" parent="android:Theme">
+		<item name="android:windowTitleSize">45dip</item>
+		<item name="android:windowTitleBackgroundStyle">@style/customWindowTitleBackground</item>
+	</style>
+</resources>
