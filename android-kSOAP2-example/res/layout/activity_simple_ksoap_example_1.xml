@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView android:text="@string/example_1_description" style="@style/ExampleDescription"/>
+    <Button android:id="@+id/btnTestExample1" android:text="@string/example_btn_text" style="@style/ExampleButton"/>
+    
+    <View style="@style/ViewSeparator" />
+    
+    <TextView android:id="@+id/lblResultCount" android:layout_width="match_parent" android:layout_height="wrap_content" 
+        android:layout_marginBottom="10dp"/>
+    
+    <ListView android:id="@+id/lvWeatherInfo" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+</LinearLayout>

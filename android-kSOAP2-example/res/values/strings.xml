@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">kSOAP2 Example</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="title_activity_main">MainActivity</string>
+	<string name="title_activity_simple_ksoap">Simple kSOAP Invocations</string>
+	
+	<string name="example_btn_text">Click to Test</string>
+	<string name="example_1_header">Example #1: Simple SOAP Request</string>
+	<string name="example_1_description">Demonstrate invoking a simple SOAP web service with no arguments, and a response containing a straighforward list structure.</string>
+	<string name="example_1_ws_in_progress">Obtaining weather information&#8230;</string>
+	<string name="example_1_failed_to_invoke_ws">An error occured while attempting to invoke the web service. Please refer to the LogCat for a detailed error description.</string>
+	<string name="example_1_ws_success">Successfully invoked the GetWeatherInfo web service!</string>
+	
+	<string name="example_2_header">Example #2: Simple SOAP Request</string>
+	<string name="example_2_description">Demonstrate invoking a SOAP web service with multiple input arguments and complex response structure.</string>
+	<string name="example_2_enter_zip_code">Enter the zip code: </string>
+	<string name="example_2_zip_code_hint">US Zip Code (e.g. 12345)</string>
+	<string name="example_2_ws_in_progress">Obtaining city forecast details&#8230;</string>
+	<string name="example_2_failed_to_invoke_ws">An error occured while attempting to invoke the GetCityForcast web service. Please refer to the LogCat for a detailed error description.</string>
+	
+</resources>

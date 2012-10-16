@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView android:text="@string/example_2_description" style="@style/ExampleDescription"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+         <TextView android:text="@string/example_2_enter_zip_code" style="@style/ExampleDescription"/>
+         <EditText android:id="@+id/txtZipCode" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+             android:hint="@string/example_2_zip_code_hint" android:inputType="number"/>       
+    </LinearLayout>
+    <Button android:id="@+id/btnTestExample2" android:text="@string/example_btn_text" style="@style/ExampleButton"/>
+    
+    <View style="@style/ViewSeparator" />
+    
+    <TextView android:id="@+id/lblCityInfo" style="@style/ExampleDescription"/>
+    <TextView android:id="@+id/lblForecastDescription" style="@style/ExampleDescription"/>
+    
+    <ListView android:id="@+id/lvCityForcastSummary" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+</LinearLayout>

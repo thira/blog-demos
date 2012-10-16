@@ -1,0 +1,31 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="ViewSeparator">
+		<item name="android:layout_height">3dp</item>
+		<item name="android:layout_width">match_parent</item>    
+		<item name="android:background">@android:color/background_light</item>   
+		<item name="android:layout_marginTop">10dp</item>
+		<item name="android:layout_marginBottom">10dp</item> 
+    </style>    
+    <style name="ExampleHeader">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>    
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>    
+    </style>
+    <style name="ExampleDescription">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>    
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:layout_marginRight">10dp</item>
+	</style>
+	<style name="ExampleButton">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>    
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:layout_marginBottom">10dp</item>
+		<item name="android:layout_marginRight">10dp</item>
+	</style>
+</resources>
